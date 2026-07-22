@@ -39,10 +39,10 @@ if password == "HK@1122":
 
     st.write("Download Paper Here")
 
-    with open( f"Paper\{sem}_{index+1}_M.pdf" , "rb") as file_type:
+    with open( f"{sem}_{index+1}_M.pdf" , "rb") as file_type:
         file_data_M = file_type.read()
     
-    with open( f"Paper\{sem}_{index+1}_E.pdf" , "rb") as file_type:
+    with open( f"{sem}_{index+1}_E.pdf" , "rb") as file_type:
         file_data_E = file_type.read()
     
     st.download_button(
