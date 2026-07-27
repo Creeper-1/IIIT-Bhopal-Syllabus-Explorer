@@ -56,5 +56,11 @@ if password == "HK@1122":
 else:
     st.stop()
 
+st.divider()
+st.markdown(
+    "Developed by **Karan Gojiya** | "
+    "[GitHub](https://github.com/KaranGojiya) | "
+    "[LinkedIn](https://linkedin.com/in/karan-gojiya)"
+)
 
 
