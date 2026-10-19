@@ -35,7 +35,7 @@ if password == "HK@1122":
 
     select = st.selectbox(label="Choose subject" , options=option)
     index = option.index(select)
-    module_name(sem,index+1)
+    # module_name(sem,index+1)
 
     st.write("Download Paper Here")
 
